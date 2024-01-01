@@ -1,27 +1,3 @@
-
-/**
- * 1-) Open the URL.
- * 2-) Click "WebOrder" button on top bar.
- * 3-) Enter valid username "Inar" and password "Academy".
- * 4-) Navigate to the order page.
- * 5-) Select "MyMoney" from Product dropdown.
- * 6-) Enter "8" as quantity number.
- * 7-) Enter "20" as discount percentage.
- * 8-) Click on the "Calculate" button.
- * 9-) Enter "Inar Academy" as Name.
- * 10-) Enter "1100 Congress Ave" as Street.
- * 11-) Enter "Austin" as City.
- * 12-) Enter "TX" State.
- * 13-) Enter "78701" as Zip Code(number).
- * 14-) Select "Visa" as Card Type.
- * 15-) Enter "4938281746192845" as Card Number.
- * 16-) Enter "11/28" Expire Date(mm/yy format).
- * 17-) Click "Process"" button.
- * 18-) Verify the confirmation message is displayed.
- * 19-) Navigate to view all orders page.
- * 20-) Verify the order is successfully placed.
- */
-
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -32,6 +8,18 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+/**
+ * 1-) Open the URL. 2-) Click "WebOrder" button on top bar. 3-) Enter valid username
+ * "Inar" and password "Academy". 4-) Navigate to the order page. 5-) Select "MyMoney"
+ * from Product dropdown. 6-) Enter "8" as quantity number. 7-) Enter "20" as discount
+ * percentage. 8-) Click on the "Calculate" button. 9-) Enter "Inar Academy" as Name. 10-)
+ * Enter "1100 Congress Ave" as Street. 11-) Enter "Austin" as City. 12-) Enter "TX"
+ * State. 13-) Enter "78701" as Zip Code(number). 14-) Select "Visa" as Card Type. 15-)
+ * Enter "4938281746192845" as Card Number. 16-) Enter "11/28" Expire Date(mm/yy format).
+ * 17-) Click "Process"" button. 18-) Verify the confirmation message is displayed. 19-)
+ * Navigate to view all orders page. 20-) Verify the order is successfully placed.
+ */
 
 public class WO_006_OP_01 extends Hooks {
 

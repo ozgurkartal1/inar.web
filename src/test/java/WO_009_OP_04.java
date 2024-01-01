@@ -1,30 +1,20 @@
-
-/**
- * 1-) Open the URL.
- * 2-) Click "WebOrder" button on top bar.
- * 3-) Enter valid username "Inar" and password "Academy".
- * 4-) Navigate to the order page.
- * 5-) Select "SportsEquipment" from Product dropdown.
- * 6-) Enter "1" as quantity number.
- * 7-) Enter "10" as discount percentage.
- * 8-) Click on the "Calculate" button.
- * 9-) Enter "Inar Academy" as Name.
- * 10-) Enter "1100 Congress Ave" as Street.
- * 11-) Enter "Austin" as City.
- * 12-) Enter "TX" State.
- * 13-) Enter "78701" as Zip Code(number).
- * 14-) Enter "4938220192845" as Card Number.
- * 15-) Enter "09/26" Expire Date(mm/yy format).
- * 16-) Click "Process"" button.
- * 17-) Verify the Card Type error message is displayed.
- */
-
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+/**
+ * 1-) Open the URL. 2-) Click "WebOrder" button on top bar. 3-) Enter valid username
+ * "Inar" and password "Academy". 4-) Navigate to the order page. 5-) Select
+ * "SportsEquipment" from Product dropdown. 6-) Enter "1" as quantity number. 7-) Enter
+ * "10" as discount percentage. 8-) Click on the "Calculate" button. 9-) Enter "Inar
+ * Academy" as Name. 10-) Enter "1100 Congress Ave" as Street. 11-) Enter "Austin" as
+ * City. 12-) Enter "TX" State. 13-) Enter "78701" as Zip Code(number). 14-) Enter
+ * "4938220192845" as Card Number. 15-) Enter "09/26" Expire Date(mm/yy format). 16-)
+ * Click "Process"" button. 17-) Verify the Card Type error message is displayed.
+ */
 
 public class WO_009_OP_04 extends Hooks {
 

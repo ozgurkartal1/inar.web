@@ -1,15 +1,3 @@
-
-/**
- * 1-) Open the URL
- * 2-) Click "WebOrder" button on top bar.
- * 3-) Enter valid username "Inar" and password "Academy".
- * 4-) Navigate to the view all order page.
- * 5-) Click "Add More Data" "8" times.
- * 6-) Click 1st, 3rd and 5th orders checkbox's.
- * 7-) Click "Delete All" button.
- * 8-) Verify the orders are deleted.
- */
-
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -18,7 +6,14 @@ import java.util.ArrayList;
 import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class WO_012_VAO_03 extends Hooks {
+/**
+ * 1-) Open the URL 2-) Click "WebOrder" button on top bar. 3-) Enter valid username
+ * "Inar" and password "Academy". 4-) Navigate to the view all order page. 5-) Click "Add
+ * More Data" "8" times. 6-) Click 1st, 3rd and 5th orders checkbox's. 7-) Click "Delete
+ * All" button. 8-) Verify the orders are deleted.
+ */
+
+public class WO_014_VAO_03 extends Hooks {
 
 	@Test
 	void testAllFunctionalityInViewAllOrderPage() throws InterruptedException {

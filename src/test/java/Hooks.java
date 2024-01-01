@@ -43,7 +43,7 @@ public class Hooks {
 			}
 		}
 
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get("https://InarAcademy:Fk160621.@test.inar-academy.com");
 
 		if (browser.equalsIgnoreCase("firefox")) {
@@ -52,10 +52,10 @@ public class Hooks {
 
 	}
 
-	@AfterAll
-	public static void tearDown() {
+
+	@AfterAll public static void tearDown() {
 		if (driver != null)
 			driver.quit();
-	}
+	 }
 
 }

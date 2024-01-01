@@ -1,3 +1,9 @@
+import org.junit.jupiter.api.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  *1-) Open the URL.
@@ -6,13 +12,6 @@
  *4-) Click on the "Login" button
  *5-) Verify that the appropriate error message is displayed.
  */
-
-import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

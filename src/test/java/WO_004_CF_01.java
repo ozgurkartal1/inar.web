@@ -1,21 +1,16 @@
-
-/**
- * 1-) Open the URL.
- * 2-) Click "WebOrder" button on top bar.
- * 3-) Enter valid username "Inar" and password "Academy".
- * 4-) Navigate to the order page.
- * 5-) Select "HomeDecor" from Product dropdown.
- * 6-) Enter "5" as quantity number.
- * 7-) Enter "15" as discount percentage.
- * 8-) Click on the "Calculate" button.
- * 9-) Verify that the total amount is successfully displayed.
- */
-
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+/**
+ * 1-) Open the URL. 2-) Click "WebOrder" button on top bar. 3-) Enter valid username
+ * "Inar" and password "Academy". 4-) Navigate to the order page. 5-) Select "HomeDecor"
+ * from Product dropdown. 6-) Enter "5" as quantity number. 7-) Enter "15" as discount
+ * percentage. 8-) Click on the "Calculate" button. 9-) Verify that the total amount is
+ * successfully displayed.
+ */
 
 public class WO_004_CF_01 extends Hooks {
 

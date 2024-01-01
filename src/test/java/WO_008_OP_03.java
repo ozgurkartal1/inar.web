@@ -1,31 +1,21 @@
-
-/**
- * 1-) Open the URL.
- * 2-) Click "WebOrder" button on top bar.
- * 3-) Enter valid username "Inar" and password "Academy".
- * 4-) Navigate to the order page.
- * 5-) Select "MyMoney" from Product dropdown.
- * 6-) Enter "8" as quantity number.
- * 7-) Enter "20" as discount percentage.
- * 8-) Click on the "Calculate" button.
- * 9-) Enter "Inar Academy" as Name.
- * 10-) Enter "1100 Congress Ave" as Street.
- * 11-) Enter "Austin" as City.
- * 12-) Enter "TX" State.
- * 13-) Enter "92@#83" as Zip Code.
- * 14-) Select "American Express" as Card Type.
- * 15-) Enter "342738261027163" as Card Number.
- * 16-) Enter "01/28" Expire Date(mm/yy format).
- * 17-) Click "Process"" button.
- * 18-) Verify the invalid Zip Code error message is displayed.
- */
-
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+/**
+ * 1-) Open the URL. 2-) Click "WebOrder" button on top bar. 3-) Enter valid username
+ * "Inar" and password "Academy". 4-) Navigate to the order page. 5-) Select "MyMoney"
+ * from Product dropdown. 6-) Enter "8" as quantity number. 7-) Enter "20" as discount
+ * percentage. 8-) Click on the "Calculate" button. 9-) Enter "Inar Academy" as Name. 10-)
+ * Enter "1100 Congress Ave" as Street. 11-) Enter "Austin" as City. 12-) Enter "TX"
+ * State. 13-) Enter "92@#83" as Zip Code. 14-) Select "American Express" as Card Type.
+ * 15-) Enter "342738261027163" as Card Number. 16-) Enter "01/28" Expire Date(mm/yy
+ * format). 17-) Click "Process"" button. 18-) Verify the invalid Zip Code error message
+ * is displayed.
+ */
 
 public class WO_008_OP_03 extends Hooks {
 
@@ -61,6 +51,10 @@ public class WO_008_OP_03 extends Hooks {
 		// Enter "17" as discount percentage.
 		WebElement discountBox = driver.findElement(By.xpath("(//div/div/input)[2]"));
 		discountBox.sendKeys("17");
+
+		// Click on the "Calculate" button.
+		WebElement calculateButton = driver.findElement(By.xpath("//button[@type='submit']"));
+		calculateButton.click();
 
 		// Enter "Inar Academy" as Name.
 		WebElement nameBox = driver.findElement(By.cssSelector("[placeholder='Enter your name']"));

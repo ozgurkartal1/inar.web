@@ -1,16 +1,12 @@
-
-/**
- *1-) Open the URL
- *2-) Click "WebOrder" button on top bar.
- *3-) Enter valid username "Inar" and password "Academy".
- *4-) Click "Logout" button.
- *5-) Verify logout successfully.
- */
-
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+/**
+ * 1)Open the URL 2)Click "WebOrder" button on top bar. 3)Enter valid username "Inar" and
+ * password "Academy". 4)Click "Logout" button. 5)Verify logout successfully.
+ */
 
 public class WO_003_LP_03 extends Hooks {
 

@@ -52,10 +52,10 @@ public class Hooks {
 
 	}
 
-
-	@AfterAll public static void tearDown() {
+	@AfterAll
+	public static void tearDown() {
 		if (driver != null)
 			driver.quit();
-	 }
+	}
 
 }
